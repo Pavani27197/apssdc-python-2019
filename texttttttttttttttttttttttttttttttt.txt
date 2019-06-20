@@ -1,0 +1,22 @@
+
+
+^[0-9]{1}$ -only single digit numbers
+^[0-9]{3}$ -only 3 digit 
+
+1.multiplications of 5  --> (^([1-9][0-9]*[05])$|^([5])$)
+2. searching for a word --> (print)      or    [p][r][i][n][t]$    or [p][r][i][n][t]
+3.validating phonenumber --> ^[6-9][0-9]{9}$|^[0][6-9][0-9]{9}$|^[+][9][1][6-9][0-9]{9}$
+4.email validation   ----->
+    usernmae:
+         -length of username : [6 ,15]
+         - no special character other than_.
+         should not begin and end with_.
+         charcter set:all digits and lowercase alphabet
+    domain:
+         length of domain :[3,18]
+         no special characters
+         -charcater set :all digits and lowercase alphabet
+    extention
+         length of domain :[2,4]
+         no special characters
+         -charcater set : lowercase alphabet
