@@ -1,6 +1,2 @@
 new data
-Line2
-Line3
-
-Line4
-Line5
+name1,9821098080,name1_276@gmail.com
